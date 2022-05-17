@@ -32,7 +32,7 @@ You will be prompted to populate the connection dialog. Click Yes.
 
 
 
-# NOTE
+** NOTE**
 Errors related to connecting through Compass will appear in red at the top of the Connect screen.
 
 # Summary
