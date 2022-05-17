@@ -25,6 +25,7 @@ nano /etc/mongo.conf
 ```
 >if your mongo-DB is bind with some external or internal IP, then use this URL.
 >in my case my server-IP is public and mongo is runing on internal local host (IP=127.0.0.1).
+
 ![image (2)](https://user-images.githubusercontent.com/71556060/168815985-1fcb872f-3588-4562-964f-d2048c37e97c.png)
 
 You will be prompted to populate the connection dialog. Click Yes.
