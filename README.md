@@ -38,3 +38,26 @@ Errors related to connecting through Compass will appear in red at the top of th
 # Summary
 
 Congratulations. If you have successfully completed this guide, you have connected to your MongoDB instance. In the next group of guides, you’ll learn how to create, read, update, and delete data in MongoDB.
+
+
+__________________________________________________________________________
+
+### to make coonection with your mongodb server:
+
+The default /etc/mongod.conf file has this entry for network interfaces:
+```
+# network interfaces
+net:
+  port: 27017
+  bindIp: 127.0.0.1
+```
+To expose the database running in a VM to the host, it's simplest to bind the database to all interfaces for testing purposes.
+```
+# network interfaces
+net:
+  port: 27017
+  bindIpAll: true
+```
+**Notice** the bindIp parameter is removed.
+
+
